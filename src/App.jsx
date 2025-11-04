@@ -7,103 +7,153 @@ import Footer from './components/Footer';
 const SERVICE_CONTENT = {
   'facebook-ads': {
     title: 'Facebook Ads',
-    body: `Maximize reach and relevance with advanced audience segmentation, creative testing, and conversion-optimized funnels. We build structures for prospecting, retargeting, and re-engagement that compound performance.`,
+    body: `Maksimalkan jangkauan dan relevansi dengan segmentasi audiens, uji kreatif, dan funnel konversi yang rapi. Struktur prospecting, retargeting, dan re‑engagement yang konsisten meningkatkan performa.`,
     bullets: [
-      'Full-funnel campaign architecture',
-      'Creative iteration and thumb-stopping visuals',
-      'CAPI + pixel governance for attribution',
-      'Dynamic product ads for catalogs',
+      'Arsitektur campaign full‑funnel',
+      'Iterasi kreatif dan visual yang menghentikan scroll',
+      'Pengaturan CAPI + pixel untuk atribusi',
+      'Dynamic Product Ads untuk katalog',
     ],
+    pricing: {
+      starter: 'Rp 5.000.000/bulan',
+      growth: 'Rp 9.000.000/bulan',
+      scale: 'Rp 15.000.000/bulan',
+    },
   },
   'instagram-ads': {
     title: 'Instagram Ads',
-    body: `We craft Reels-first stories, carousel narratives, and UGC-style creatives that feel native while driving measurable outcomes across Feed, Explore, and Stories.`,
+    body: `Kami merancang cerita Reels, carousel, dan creative UGC yang terasa native namun mendorong hasil di Feed, Explore, dan Stories.`,
     bullets: [
-      'Reels-first content strategy',
-      'UGC production and creator sourcing',
-      'Placement-optimized formats',
-      'Creative analytics and iteration',
+      'Strategi Reels‑first',
+      'Produksi UGC & creator sourcing',
+      'Format yang dioptimalkan per placement',
+      'Analitik kreatif & iterasi cepat',
     ],
+    pricing: {
+      starter: 'Rp 5.000.000/bulan',
+      growth: 'Rp 8.500.000/bulan',
+      scale: 'Rp 14.000.000/bulan',
+    },
   },
   'tiktok-ads': {
     title: 'TikTok Ads',
-    body: `Trend-aware, native creative that rides the algorithm responsibly. We combine spark ads, hooks, and fast iteration to earn attention and scale efficiently.`,
+    body: `Kreatif yang peka tren dan native untuk menunggangi algoritma. Kombinasi spark ads, hook kuat, dan iterasi cepat demi efisiensi skala.`,
     bullets: [
-      'Hook-driven creative system',
-      'Spark ads and creator whitelisting',
-      'Event tracking and attribution',
-      'Rapid test-and-learn cadence',
+      'Sistem creative berfokus hook',
+      'Spark ads & whitelisting creator',
+      'Pelacakan event & atribusi',
+      'Ritme test‑and‑learn yang cepat',
     ],
+    pricing: {
+      starter: 'Rp 6.000.000/bulan',
+      growth: 'Rp 9.500.000/bulan',
+      scale: 'Rp 16.000.000/bulan',
+    },
   },
   'google-ads': {
     title: 'Google Ads',
-    body: `Search, Shopping, Display, and Performance Max working together. We structure campaigns for intent capture and profitable growth with clean data and smart bidding.`,
+    body: `Search, Shopping, Display, dan Performance Max bekerja bersama untuk menangkap intent dan mendorong pertumbuhan profit.`,
     bullets: [
-      'Granular search intent mapping',
-      'Merchant Center + feed hygiene',
-      'PMax with robust asset groups',
-      'Landing page CRO recommendations',
+      'Pemetaan intent kata kunci yang granular',
+      'Merchant Center & hygiene feed',
+      'PMax dengan asset group yang kuat',
+      'Rekomendasi CRO landing page',
     ],
+    pricing: {
+      starter: 'Rp 6.500.000/bulan',
+      growth: 'Rp 10.000.000/bulan',
+      scale: 'Rp 17.000.000/bulan',
+    },
   },
   'youtube-ads': {
     title: 'YouTube Ads',
-    body: `Awareness to action with skippable, non‑skippable, and Shorts formats. We produce scripts and storyboards that land the message in the first five seconds.`,
+    body: `Dari awareness ke action dengan format skippable, non‑skippable, dan Shorts. Naskah dan storyboard yang menyampaikan pesan dalam 5 detik pertama.`,
     bullets: [
-      'Full-funnel YouTube strategy',
-      'Creative scripting and storyboarding',
-      'Audience layering and exclusions',
-      'Brand lift and view-through metrics',
+      'Strategi YouTube full‑funnel',
+      'Scripting & storyboard kreatif',
+      'Audience layering & exclusions',
+      'Brand lift & view‑through metrics',
     ],
+    pricing: {
+      starter: 'Rp 6.000.000/bulan',
+      growth: 'Rp 9.500.000/bulan',
+      scale: 'Rp 16.000.000/bulan',
+    },
   },
   'linkedin-ads': {
     title: 'LinkedIn Ads',
-    body: `Account-based marketing for B2B. We target by firmographics and buyer persona, optimizing for qualified pipeline—not just clicks.`,
+    body: `ABM untuk B2B. Penargetan berdasarkan firmografis & persona pembeli, fokus ke pipeline berkualitas.`,
     bullets: [
-      'ABM targeting and list matching',
-      'Lead gen forms and routing',
-      'Content syndication and retargeting',
-      'CRM alignment and UTM governance',
+      'Target ABM & list matching',
+      'Lead gen forms & routing',
+      'Retargeting & content syndication',
+      'Sinkronisasi CRM & UTM governance',
     ],
+    pricing: {
+      starter: 'Rp 7.000.000/bulan',
+      growth: 'Rp 11.000.000/bulan',
+      scale: 'Rp 18.000.000/bulan',
+    },
   },
   'twitter-ads': {
     title: 'Twitter/X Ads',
-    body: `Win the moment with real-time conversation targeting and creative that feels native to the timeline.`,
+    body: `Menang di momen percakapan real‑time dengan creative yang terasa native di timeline.`,
     bullets: [
-      'Conversation and keyword targeting',
-      'Trend-aligned creative angles',
-      'Brand safety controls',
-      'Always-on testing framework',
+      'Targeting percakapan & keyword',
+      'Creative selaras tren',
+      'Kontrol brand safety',
+      'Kerangka testing berkelanjutan',
     ],
+    pricing: {
+      starter: 'Rp 5.000.000/bulan',
+      growth: 'Rp 8.000.000/bulan',
+      scale: 'Rp 13.000.000/bulan',
+    },
   },
   'marketplace-ads': {
     title: 'Marketplace Ads',
-    body: `Shopee, Tokopedia, and marketplace media tailored to move inventory and defend share of shelf.`,
+    body: `Shopee, Tokopedia, dan media marketplace untuk menggerakkan inventory dan mempertahankan share of shelf.`,
     bullets: [
-      'Promo calendar and campaign sync',
-      'Storefront optimization',
-      'Keyword and competitor defense',
-      'Ratings, reviews, and bundles',
+      'Sinkronisasi kalender promo',
+      'Optimasi storefront & katalog',
+      'Keyword & pertahanan kompetitor',
+      'Rating, ulasan, dan bundling',
     ],
+    pricing: {
+      starter: 'Rp 5.500.000/bulan',
+      growth: 'Rp 9.000.000/bulan',
+      scale: 'Rp 14.500.000/bulan',
+    },
   },
   seo: {
     title: 'SEO (Search Engine Optimisation)',
-    body: `Technical, on-page, and content SEO with a pragmatic roadmap. We fix the foundations and publish content that compounds demand.`,
+    body: `SEO teknis, on‑page, dan konten dengan roadmap praktis. Memperkuat pondasi dan menerbitkan konten yang mengakselerasi permintaan.`,
     bullets: [
-      'Technical audits and fixes',
-      'Semantic content architecture',
-      'Editorial operations and briefs',
-      'Link earning and digital PR',
+      'Audit teknis & perbaikan',
+      'Arsitektur konten semantik',
+      'Operasional editorial & brief',
+      'Earning link & digital PR',
     ],
+    pricing: {
+      starter: 'Rp 4.500.000/bulan',
+      growth: 'Rp 7.500.000/bulan',
+      scale: 'Rp 12.000.000/bulan',
+    },
   },
   'publish-media': {
     title: 'Publish Media Nasional',
-    body: `End-to-end PR placement across national media to build authority and social proof for your brand launches, milestones, and leadership POVs.`,
+    body: `Penempatan PR ujung ke ujung di media nasional untuk membangun otoritas & social proof bagi peluncuran, milestone, dan POV leadership.`,
     bullets: [
-      'Media list development and outreach',
-      'Press kit and newsroom setup',
-      'Thought leadership placement',
-      'Coverage tracking and reporting',
+      'Penyusunan media list & outreach',
+      'Press kit & newsroom setup',
+      'Penempatan thought leadership',
+      'Pelacakan liputan & pelaporan',
     ],
+    pricing: {
+      starter: 'Rp 8.000.000/paket',
+      growth: 'Rp 12.000.000/paket',
+      scale: 'Rp 20.000.000/paket',
+    },
   },
 };
 
@@ -118,14 +168,14 @@ function About() {
     <section className="pt-28 pb-16">
       <Container>
         <div className="max-w-3xl">
-          <h2 className="text-3xl md:text-4xl font-bold text-emerald-950">About Us</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-emerald-950">Tentang Kami</h2>
           <p className="mt-4 text-emerald-900/80 leading-relaxed">
-            We are a digital creative agency blending performance media with premium 3D design. Our mission is to help modern brands communicate with clarity, beauty, and measurable impact across social, search, and marketplaces.
+            Kami adalah agensi kreatif digital yang memadukan performa media dengan desain 3D premium. Misi kami: membantu brand modern berkomunikasi dengan jelas, indah, dan berdampak terukur di social, search, dan marketplace.
           </p>
           <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-4">
-            <Stat label="Platforms Managed" value="10+" />
-            <Stat label="Avg. ROAS Lift" value="2.7x" />
-            <Stat label="Projects Delivered" value="200+" />
+            <Stat label="Platform Dikelola" value="10+" />
+            <Stat label="Rata-rata Kenaikan ROAS" value="2,7x" />
+            <Stat label="Proyek Terselesaikan" value="200+" />
           </div>
         </div>
       </Container>
@@ -148,10 +198,10 @@ function Contact() {
       <Container>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10">
           <div>
-            <h2 className="text-3xl md:text-4xl font-bold text-emerald-950">Contact Us</h2>
-            <p className="mt-4 text-emerald-900/80">Tell us about your goals, timeline, and budget. We’ll come back with a tailored plan.</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-emerald-950">Hubungi Kami</h2>
+            <p className="mt-4 text-emerald-900/80">Ceritakan tujuan, timeline, dan kisaran anggaran Anda. Kami akan kembali dengan rencana yang disesuaikan.</p>
             <div className="mt-6 p-5 rounded-xl bg-[#F5EDE0] border border-emerald-900/10">
-              <p className="text-sm text-emerald-900/80">Prefer email? Reach us at</p>
+              <p className="text-sm text-emerald-900/80">Prefer email? Kirim ke</p>
               <a className="font-semibold text-emerald-900 hover:underline" href="mailto:hello@sageandsand.agency">hello@sageandsand.agency</a>
             </div>
           </div>
@@ -163,13 +213,13 @@ function Contact() {
               const name = data.get('name');
               const email = data.get('email');
               const msg = data.get('message');
-              const subject = encodeURIComponent(`Project inquiry from ${name}`);
-              const body = encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\n${msg}`);
+              const subject = encodeURIComponent(`Permintaan proyek dari ${name}`);
+              const body = encodeURIComponent(`Nama: ${name}\nEmail: ${email}\n\n${msg}`);
               window.location.href = `mailto:hello@sageandsand.agency?subject=${subject}&body=${body}`;
             }}
           >
             <div>
-              <label className="block text-sm font-medium text-emerald-900/80">Name</label>
+              <label className="block text-sm font-medium text-emerald-900/80">Nama</label>
               <input name="name" required className="mt-1 w-full rounded-lg border border-emerald-900/20 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#9CAF88]" />
             </div>
             <div>
@@ -177,10 +227,10 @@ function Contact() {
               <input type="email" name="email" required className="mt-1 w-full rounded-lg border border-emerald-900/20 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#9CAF88]" />
             </div>
             <div>
-              <label className="block text-sm font-medium text-emerald-900/80">Message</label>
+              <label className="block text-sm font-medium text-emerald-900/80">Pesan</label>
               <textarea name="message" rows="5" required className="mt-1 w-full rounded-lg border border-emerald-900/20 px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#9CAF88]"></textarea>
             </div>
-            <button type="submit" className="inline-flex items-center justify-center px-5 py-3 rounded-lg bg-[#9CAF88] text-white font-semibold hover:bg-[#89a377] transition-colors">Send Message</button>
+            <button type="submit" className="inline-flex items-center justify-center px-5 py-3 rounded-lg bg-[#9CAF88] text-white font-semibold hover:bg-[#89a377] transition-colors">Kirim Pesan</button>
           </form>
         </div>
       </Container>
@@ -188,16 +238,38 @@ function Contact() {
   );
 }
 
+function PriceCard({ tier, price, features, highlighted = false }) {
+  return (
+    <div className={`rounded-xl border border-emerald-900/10 p-5 ${highlighted ? 'bg-[#F5EDE0]' : 'bg-white'} shadow-sm`}>
+      <div className="text-sm font-medium text-emerald-900/70">{tier}</div>
+      <div className="mt-1 text-2xl font-bold text-emerald-950">{price}</div>
+      <ul className="mt-3 space-y-2 text-sm text-emerald-900/80">
+        {features.map((f) => (
+          <li key={f} className="flex items-start gap-2">
+            <span className="mt-1 inline-block w-2.5 h-2.5 rounded-full bg-[#9CAF88]" />
+            <span>{f}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+}
+
 function ServiceDetail({ slug }) {
   const data = SERVICE_CONTENT[slug];
   if (!data) return null;
+  const tierFeatures = {
+    starter: ['Setup & struktur campaign', '2–3 variasi kreatif/bulan', 'Laporan bulanan'],
+    growth: ['Semua di Starter', 'Optimalisasi mingguan', '5–7 variasi kreatif/bulan'],
+    scale: ['Semua di Growth', 'Eksperimen multi‑channel', 'Laporan kinerja mendalam'],
+  };
   return (
     <section className="pt-28 pb-16">
       <Container>
         <div className="max-w-3xl">
           <a href="#/services" className="inline-flex items-center gap-2 text-sm text-emerald-900/70 hover:text-emerald-900">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M19 12H5"/><path d="m12 19-7-7 7-7"/></svg>
-            Back to Services
+            Kembali ke Layanan
           </a>
           <h1 className="mt-4 text-3xl md:text-4xl font-bold text-emerald-950">{data.title}</h1>
           <p className="mt-3 text-emerald-900/80 leading-relaxed">{data.body}</p>
@@ -209,17 +281,28 @@ function ServiceDetail({ slug }) {
               </li>
             ))}
           </ul>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <a href="#/contact" className="inline-flex items-center justify-center px-5 py-3 rounded-lg bg-[#9CAF88] text-white font-semibold hover:bg-[#89a377]">Start a Project</a>
-            <a href="#/services" className="inline-flex items-center justify-center px-5 py-3 rounded-lg border border-emerald-900/10 bg-white text-emerald-900 font-semibold hover:bg-emerald-50">Explore More Services</a>
+        </div>
+
+        <div className="mt-10">
+          <h3 className="text-2xl font-bold text-emerald-950">Paket & Harga</h3>
+          <p className="mt-2 text-emerald-900/70">Harga jasa manajemen belum termasuk biaya iklan (ad spend). Paket dapat disesuaikan kebutuhan.</p>
+          <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4">
+            <PriceCard tier="Starter" price={data.pricing.starter} features={tierFeatures.starter} />
+            <PriceCard tier="Growth" price={data.pricing.growth} features={tierFeatures.growth} highlighted />
+            <PriceCard tier="Scale" price={data.pricing.scale} features={tierFeatures.scale} />
           </div>
+        </div>
+
+        <div className="mt-8 flex flex-wrap gap-3">
+          <a href="#/contact" className="inline-flex items-center justify-center px-5 py-3 rounded-lg bg-[#9CAF88] text-white font-semibold hover:bg-[#89a377]">Mulai Proyek</a>
+          <a href="#/services" className="inline-flex items-center justify-center px-5 py-3 rounded-lg border border-emerald-900/10 bg-white text-emerald-900 font-semibold hover:bg-emerald-50">Lihat Layanan Lain</a>
         </div>
       </Container>
     </section>
   );
 }
 
-function Home({ onSelect }) {
+function Home() {
   return (
     <>
       <Hero />
@@ -229,19 +312,19 @@ function Home({ onSelect }) {
           <div className="rounded-2xl overflow-hidden border border-emerald-900/10 bg-white">
             <div className="grid md:grid-cols-2">
               <div className="p-8 md:p-10">
-                <h3 className="text-2xl font-bold text-emerald-950">Why brands choose us</h3>
+                <h3 className="text-2xl font-bold text-emerald-950">Mengapa brand memilih kami</h3>
                 <ul className="mt-4 space-y-3 text-emerald-900/80">
-                  <li className="flex gap-3"><span className="mt-1 w-2.5 h-2.5 rounded-full bg-[#E8DCC1]"/><span>3D-first creative system that stands out in crowded feeds.</span></li>
-                  <li className="flex gap-3"><span className="mt-1 w-2.5 h-2.5 rounded-full bg-[#9CAF88]"/><span>Performance frameworks built to test, learn, and scale.</span></li>
-                  <li className="flex gap-3"><span className="mt-1 w-2.5 h-2.5 rounded-full bg-[#cfd7b8]"/><span>Clear reporting, clean data, and actionable insights.</span></li>
+                  <li className="flex gap-3"><span className="mt-1 w-2.5 h-2.5 rounded-full bg-[#E8DCC1]"/><span>Sistem kreatif berfokus 3D yang standout di feed.</span></li>
+                  <li className="flex gap-3"><span className="mt-1 w-2.5 h-2.5 rounded-full bg-[#9CAF88]"/><span>Kerangka performa untuk test, learn, dan scale.</span></li>
+                  <li className="flex gap-3"><span className="mt-1 w-2.5 h-2.5 rounded-full bg-[#cfd7b8]"/><span>Pelaporan jelas, data rapi, dan insight yang dapat ditindaklanjuti.</span></li>
                 </ul>
-                <a href="#/about" className="mt-6 inline-flex items-center px-5 py-3 rounded-lg border border-emerald-900/10 bg-white text-emerald-900 font-semibold hover:bg-emerald-50">Learn about our approach</a>
+                <a href="#/about" className="mt-6 inline-flex items-center px-5 py-3 rounded-lg border border-emerald-900/10 bg-white text-emerald-900 font-semibold hover:bg-emerald-50">Pelajari pendekatan kami</a>
               </div>
               <div className="p-8 md:p-10 bg-gradient-to-br from-[#F5EDE0] to-white">
                 <div className="h-full rounded-xl border border-emerald-900/10 p-6">
-                  <h4 className="text-lg font-semibold text-emerald-950">Platforms we power</h4>
+                  <h4 className="text-lg font-semibold text-emerald-950">Platform yang kami kuasai</h4>
                   <div className="mt-4 grid grid-cols-2 gap-3 text-sm text-emerald-900/80">
-                    {['Facebook', 'Instagram', 'TikTok', 'Google', 'YouTube', 'LinkedIn', 'Twitter/X', 'Marketplaces', 'SEO', 'PR'].map((p) => (
+                    {['Facebook', 'Instagram', 'TikTok', 'Google', 'YouTube', 'LinkedIn', 'Twitter/X', 'Marketplace', 'SEO', 'PR'].map((p) => (
                       <span key={p} className="inline-flex items-center gap-2">
                         <span className="w-2.5 h-2.5 rounded-full bg-emerald-200" /> {p}
                       </span>
@@ -269,7 +352,7 @@ export default function App() {
 
   const route = useMemo(() => {
     const h = hash.startsWith('#') ? hash.slice(1) : hash;
-    const parts = h.split('/').filter(Boolean); // ["",""], etc
+    const parts = h.split('/').filter(Boolean);
     if (parts.length === 0) return { name: 'home' };
     if (parts[0] === 'about') return { name: 'about' };
     if (parts[0] === 'contact') return { name: 'contact' };
@@ -288,8 +371,8 @@ export default function App() {
         <>
           <section className="pt-28">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-              <h1 className="text-3xl md:text-4xl font-bold text-emerald-950">Services</h1>
-              <p className="mt-3 text-emerald-900/80 max-w-2xl">Choose a channel to dive deeper. Every service integrates with our creative and analytics engine for consistent growth.</p>
+              <h1 className="text-3xl md:text-4xl font-bold text-emerald-950">Layanan</h1>
+              <p className="mt-3 text-emerald-900/80 max-w-2xl">Pilih kanal untuk melihat detail lengkap beserta harga. Tiap layanan terintegrasi dengan mesin kreatif dan analitik kami.</p>
             </div>
           </section>
           <ServicesGrid onSelect={(slug) => (window.location.hash = `#/services/${slug}`)} />

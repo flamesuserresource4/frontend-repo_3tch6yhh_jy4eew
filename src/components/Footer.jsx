@@ -7,11 +7,11 @@ export default function Footer() {
             <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-[#E8DCC1] to-[#9CAF88] shadow-inner" />
             <div>
               <p className="font-semibold text-emerald-950">Sage & Sand Creative</p>
-              <p className="text-sm text-emerald-900/60">3D-first digital creative agency</p>
+              <p className="text-sm text-emerald-900/60">Agensi kreatif digital berfokus 3D</p>
             </div>
           </div>
           <div className="text-sm text-emerald-900/70 text-center md:text-right">
-            <p>© {new Date().getFullYear()} Sage & Sand Creative. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Sage & Sand Creative. Seluruh hak cipta dilindungi.</p>
           </div>
         </div>
       </div>

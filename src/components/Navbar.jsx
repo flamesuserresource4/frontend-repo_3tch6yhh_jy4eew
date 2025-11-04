@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
 
 const LINKS = [
-  { label: 'Home', hash: '#/' },
-  { label: 'About Us', hash: '#/about' },
-  { label: 'Services', hash: '#/services' },
-  { label: 'Contact', hash: '#/contact' },
+  { label: 'Beranda', hash: '#/' },
+  { label: 'Tentang Kami', hash: '#/about' },
+  { label: 'Layanan', hash: '#/services' },
+  { label: 'Kontak', hash: '#/contact' },
 ];
 
 export default function Navbar() {
